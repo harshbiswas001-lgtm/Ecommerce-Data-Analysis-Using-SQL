@@ -11,4 +11,8 @@ to analyze sales and customer behavior.
 SELECT * FROM customers;
 SELECT * FROM orders;
 SELECT * FROM products;   
-<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/ea2c11fb-8bf0-4ac1-b5f5-904fe59b00f5" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/ea2c11fb-8bf0-4ac1-b5f5-904fe59b00f5" /> 
+# Total quantity sold per product
+SELECT product_id, SUM(quantity) AS total_sold
+FROM order_items
+GROUP BY product_id;
