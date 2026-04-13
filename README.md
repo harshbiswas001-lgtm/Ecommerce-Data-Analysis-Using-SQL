@@ -1,2 +1,13 @@
 # Ecommerce-Data-Analysis-Using-SQL
-In this project, I worked on an ecommerce dataset using SQL to explore and analyze the data. I wrote different queries using joins, subqueries, and aggregate functions to understand sales, customer behavior, and product performance. This project helped me improve my SQL skills and gain hands-on experience in real-world data analysis
+# Title SQLData Analysis Project
+# Objective
+To use SQL queries to extract and analyze data from an ecommerce database.
+# Tools Used
+· SQLite (DBBrowser for SQLite)
+# Dataset Description
+The dataset contains information about customers, orders, products, and order details. It is used
+to analyze sales and customer behavior.
+# SQLQueries & Output
+SELECT * FROM customers;
+SELECT * FROM orders;
+SELECT * FROM products;
