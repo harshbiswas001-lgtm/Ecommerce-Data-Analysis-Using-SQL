@@ -39,5 +39,14 @@ FROM products
 WHERE price > (
     SELECT AVG(price) FROM products
 );
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/eda36528-0b5a-4077-99b4-876dfdde4b2e" />
+# Monthly revenue calculation
+SELECT 
+    strftime('%Y-%m', o.order_date) AS month,
+    SUM(oi.quantity * p.price) AS revenue
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+JOIN products p ON oi.product_id = p.product_id
+GROUP BY month;
 
 
