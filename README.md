@@ -28,4 +28,8 @@ SELECT c.customer_name, o.order_id
 FROM customers c
 LEFT JOIN orders o
 ON c.customer_id = o.customer_id;
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/62796b6b-4be5-4903-94b2-da103bcc6983" />
+# Average product price
+SELECT AVG(price) AS avg_price
+FROM products;
 
