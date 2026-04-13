@@ -22,4 +22,10 @@ SELECT o.order_id, c.customer_name
 FROM orders o
 JOIN customers c
 ON o.customer_id = c.customer_id;
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/56c266b1-d5f5-4acc-a243-d6b89fc6af8c" />
+# Show all customers 
+SELECT c.customer_name, o.order_id
+FROM customers c
+LEFT JOIN orders o
+ON c.customer_id = o.customer_id;
 
