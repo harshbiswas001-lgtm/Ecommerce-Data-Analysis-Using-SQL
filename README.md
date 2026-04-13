@@ -32,4 +32,12 @@ ON c.customer_id = o.customer_id;
 # Average product price
 SELECT AVG(price) AS avg_price
 FROM products;
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/ec60a770-9d4d-4796-8877-4f3cdaf526bd" />
+# Products with price above average
+SELECT product_name
+FROM products
+WHERE price > (
+    SELECT AVG(price) FROM products
+);
+
 
