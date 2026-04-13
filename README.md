@@ -49,5 +49,7 @@ JOIN order_items oi ON o.order_id = oi.order_id
 JOIN products p ON oi.product_id = p.product_id
 GROUP BY month;
 <img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/b758529e-98f5-4aba-8e24-bddf1c0ea41c" />
+# Conclusion
+This project demonstrates how SQL and Power BI can be combined to perform data analysis and create impactful visualizations for decision-making.
 
 
