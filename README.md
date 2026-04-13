@@ -16,3 +16,10 @@ SELECT * FROM products;
 SELECT product_id, SUM(quantity) AS total_sold
 FROM order_items
 GROUP BY product_id;
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/d701b3aa-0e45-4ad9-9a7a-e3b8d4c9cc8d" />
+# Get order with customer name
+SELECT o.order_id, c.customer_name
+FROM orders o
+JOIN customers c
+ON o.customer_id = c.customer_id;
+
