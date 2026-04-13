@@ -10,4 +10,5 @@ to analyze sales and customer behavior.
 # SQLQueries & Output
 SELECT * FROM customers;
 SELECT * FROM orders;
-SELECT * FROM products;
+SELECT * FROM products;   
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/ea2c11fb-8bf0-4ac1-b5f5-904fe59b00f5" />
